@@ -8,6 +8,6 @@ class CompanyProfileController extends Controller
 {
     public function index()
     {
-        return view('layouts.app'); // Sesuaikan dengan nama file Blade Template
+        return view('index'); // Panggil file content.blade.php
     }
 }

@@ -17,4 +17,8 @@ Livewire::setScriptRoute(function ($handle) {
 / END
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
 Route::get('/', [CompanyProfileController::class, 'index'])->name('home');
